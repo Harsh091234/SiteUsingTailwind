@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Website</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container min-h-screen min-w-full bg-[url('images/Image.png')] bg-cover     bg-center  py-2 px-4 relative">
+        <nav class="flex items-center max-[640px]:relative z-20">
+            <img  class="  w-44 cursor-pointer" src="images/logo.png"  alt="" >
+            <img onclick="ShowMenuList()" id="menuBtn" src="images/menu icon.png" class="md:hidden sm:block  sm:left-12  active:text-yellow-300 max-[640px]:block absolute sm:w-9 hidden cursor-pointer  right-0 left-0 mx-auto my-0 w-9" alt="">
+            <ul id="menuList" class="z-10 max-[640px] md:-translate-x-14 md:top-0 md:bg-transparent md:mx-auto md:my-0 md:flex sm:hidden  md:relative sm:top-12 sm:max-w-32 sm:bg-yellow-400  sm:absolute  sm:left-0 sm:right-0 sm:my-0 sm:translate-x-6 sm:mx-auto max-[640px]:bg-yellow-400 flex-1 text-center max-[640px]:hidden max-[640px]:max-w-32 max-[640px]:absolute max-[640px]:top-10 max-[640px]:right-0 max-[640px]:left-0 max-[640px]:mx-auto max-[640px]:my-0 max-[640px]:translate-x-px ">
+                <li class=" sm:w-full max-[640px]:w-full  max-[640px]:py-1 sm:py-1 inline-block list-none px-4"> <a href="#"
+                        class="md:hover:text-yellow-300 text-white no-underline px-2   hover:text-yellow-300 duration-200 inline-block hover:scale-105 transition-transform max-[640px]:hover:text-gray-900 sm:hover:text-gray-900">Home</a>
+                </li>
+                <li class=" sm:w-full sm:py-1 max-[640px]:w-full  max-[640px]:py-1  inline-block list-none px-4"> <a href="#"
+                        class="md:hover:text-yellow-300  text-white no-underline px-2  hover:text-yellow-300 duration-200 inline-block hover:scale-105 transition-transform  max-[640px]:hover:text-gray-900 sm:hover:text-gray-900">About</a></li>
+                <li class="sm:w-full sm:py-1 max-[640px]:w-full   max-[640px]:py-1  inline-block list-none px-4"> <a href="#"
+                        class="md:hover:text-yellow-300  text-white no-underline px-2  hover:text-yellow-300 duration-200 inline-block hover:scale-105 transition-transform  max-[640px]:hover:text-gray-900 sm:hover:text-gray-900">Features</a></li>
+                <li class="sm:w-full sm:py-1 max-[640px]:w-full   max-[640px]:py-1 inline-block list-none px-4"> <a href="#"
+                        class="md:hover:text-yellow-300  text-white no-underline px-2  hover:text-yellow-300 duration-200 inline-block hover:scale-105 transition-transform  max-[640px]:hover:text-gray-900 sm:hover:text-gray-900">Contact</a></li>
+            </ul>
+            <img src="images/cart.png" alt="" class="w-9 ml-auto cursor-pointer max-[640px]:left-5">
+        </nav>
+        <div class="mt-28 z-10 absolute lg:w-1/2">
+            <h1 class=" lg:xs text-white font-semibold text-6xl leading-snug ">
+                Groceries <br> delivery in <span class="font-thin">15 mins</span>
+            </h1>
+            <p class= "md:w-2/5 max-[640px]:w-full text-white text-lg w-1/2 my-2 font-sans tracking-wide sm:w-full">
+                Grocify offers a wide range of products, including fresh products, meat, dairy, baked goods and
+                non-perishable items.
+            </p>
+            <div class="mt-6 ">
+                <a href="#"
+                    class="bg-amber-300 text-black rounded-3xl   px-7 py-2 mr-2 border border-transparent hover:border-yellow-300 hover:text-white hover:bg-transparent duration-300  active:text-gray-500">Order
+                    Now</a>
+                <a href="#" class=" text-white hover:text-amber-300 active:scale-110 inline-block transition-transform duration-100">Download App <span class="text-lg">&#8595</span></a>
+            </div>
+        </div>
+       
+            <img src="images/grocery-image.png" alt="" class="md:opacity-90 lg:100   max-[640px]:w-full max-[640px]:z-0  absolute bottom-0 right-2 max-w-lg pt-10 max-[640px]:opacity-50 duration-100 sm:opacity-50 sm:z-0">
+       
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
